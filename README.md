@@ -14,3 +14,5 @@ Mean squared error loss function
 Back propogation from the partial derivatives of the MSE w.r.t. W and b
 
 Update with learning hyperparameter alpha = 0.01
+
+Note: z-score normalization was applied to values of Celsius and Fahrenheit to account for numerical instability issues, therefore W and b has to be "de-normalized" at the end of traing to produced the expected output of W = 1.8 and C = 32
